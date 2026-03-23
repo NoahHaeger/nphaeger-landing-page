@@ -5,88 +5,170 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Noah Haeger Portfolio</title>
 
-  <!-- FIXED CSS LINK -->
   <link rel="stylesheet" href="styles.css">
 </head>
 
-<body >
+<body>
 
-  <!-- HERO -->
-  <header>
-    <img src="images/headshot.jpg" alt="Professional headshot of Noah Haeger" width="150">
+<!-- NAV -->
+<header>
+  <div class="nav-inner">
+    <a href="#" class="nav-brand">Noah Haeger</a>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="container hero-inner">
+    
+    <img class="headshot" src="images/headshot.jpg" alt="Professional headshot of Noah Haeger">
+
     <h1>Noah Haeger</h1>
-    <p>Finance & Business Analytics · University of Iowa · May 2026</p>
-    <p>I turn data into decisions. Seeking full-time roles in finance, analytics, and strategy.</p>
 
-    <a href="https://linkedin.com/in/noah-haeger" target="_blank" rel="noopener noreferrer">
-      Connect on LinkedIn
-    </a>
-    <a href="#projects">
-      View My Work
-    </a>
-  </header>
+    <p class="tagline">
+      Finance & Business Analytics · University of Iowa · May 2026
+    </p>
 
-  <!-- ABOUT -->
-  <section id="about">
+    <p class="hero-sub">
+      I turn data into decisions. Seeking full-time roles in finance, analytics, and strategy.
+    </p>
+
+    <div class="hero-cta">
+      <a class="btn" href="https://linkedin.com/in/noah-haeger" target="_blank" rel="noopener noreferrer">
+        Connect on LinkedIn
+      </a>
+
+      <a class="btn btn-outline" href="#projects">
+        View My Work
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+
     <h2>About</h2>
-    <p>
+
+    <p class="about-intro">
       I'm a dual-degree student at the University of Iowa's Tippie College of Business completing a B.B.A. in Business Analytics Information Systems and a B.B.A. in Finance. I focus on roles where structured data meets real business decisions — from IT controls at PwC to go-to-market strategy at a global tech firm.
     </p>
 
-    <ul>
-      <li>3.75 GPA · Dean's List</li>
-      <li>2 Finance & Analytics Internships</li>
-      <li>$600K+ Budget Managed as Treasurer</li>
-    </ul>
+    <div class="about-stats">
+      <div class="stat">
+        <span class="stat-value">3.75</span>
+        <span class="stat-label">GPA</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value">2</span>
+        <span class="stat-label">Internships</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value">$600K+</span>
+        <span class="stat-label">Budget Managed</span>
+      </div>
+    </div>
 
-    <ul>
+    <ul class="about-list">
       <li>Interned at PricewaterhouseCoopers evaluating IT general controls</li>
       <li>Built go-to-market strategy for digital commerce at SICK Sensor Intelligence</li>
       <li>Managed $575K+ as Treasurer of Phi Kappa Psi</li>
       <li>Volunteered with Boys & Girls Club of America</li>
     </ul>
-  </section>
 
-  <!-- PROJECTS -->
-  <section id="projects">
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+
     <h2>Projects</h2>
 
-    <div>
-      <h3>Film Success Analysis (2000–Present)</h3>
-      <p>
-        Built a SQL-powered analysis to identify key predictors of box office success across 20+ years of film data.
-      </p>
-      <p><strong>Tools:</strong> SQL, Data Visualization</p>
+    <div class="cards">
+
+      <div class="card">
+        <div class="card-body">
+          <h3>Film Success Analysis (2000–Present)</h3>
+          <p>
+            Built a SQL-powered analysis to identify key predictors of box office success across 20+ years of film data.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <h3>Go-To-Market Strategy · SICK Sensor Intelligence</h3>
+          <p>
+            Delivered a go-to-market strategy for digital commerce and cloud services, shaping mid-term planning decisions.
+          </p>
+        </div>
+      </div>
+
     </div>
 
-    <div>
-      <h3>Go-To-Market Strategy · SICK Sensor Intelligence</h3>
-      <p>
-        Delivered a go-to-market strategy for digital commerce and cloud services, shaping mid-term planning decisions.
-      </p>
-      <p><strong>Tools:</strong> Power BI, Market Research, Competitive Analysis</p>
-    </div>
-  </section>
+  </div>
+</section>
 
-  <!-- SKILLS -->
-  <section id="skills">
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+
     <h2>Skills</h2>
-    <p>SAS · Python · Power BI · Excel · SQL · Financial Analysis · Strategy</p>
-  </section>
 
-  <!-- CONTACT -->
-  <section id="contact">
+    <div class="skills-group">
+      <h3>Technical</h3>
+      <div class="tags">
+        <span class="tag">SAS</span>
+        <span class="tag">Python</span>
+        <span class="tag">SQL</span>
+        <span class="tag">Power BI</span>
+        <span class="tag">Excel</span>
+      </div>
+    </div>
+
+    <div class="skills-group">
+      <h3>Business</h3>
+      <div class="tags">
+        <span class="tag">Financial Analysis</span>
+        <span class="tag">Strategy</span>
+        <span class="tag">Market Research</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+
     <h2>Contact</h2>
-    <p>
-      <a href="https://linkedin.com/in/noah-haeger" target="_blank" rel="noopener noreferrer">
-        LinkedIn
-      </a>
-      |
-      <a href="https://github.com/NoahHaeger" target="_blank" rel="noopener noreferrer">
-        GitHub
-      </a>
-    </p>
-  </section>
+
+    <p>Feel free to reach out or connect with me:</p>
+
+    <div class="contact-links">
+      <a class="btn" href="https://linkedin.com/in/noah-haeger" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a class="btn btn-outline" href="https://github.com/NoahHaeger" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <p>© 2026 Noah Haeger</p>
+  </div>
+</footer>
 
 </body>
 </html>
