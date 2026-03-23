@@ -3,211 +3,90 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Noah Haeger — Finance &amp; Analytics</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/stylesheet.css">
+  <title>Noah Haeger Portfolio</title>
+
+  <!-- FIXED CSS LINK -->
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
+  <!-- HERO -->
   <header>
-    <nav aria-label="Main navigation">
-      <div class="nav-inner">
-        <a href="#hero" class="nav-brand">Noah Haeger</a>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
+    <img src="images/headshot.jpg" alt="Professional headshot of Noah Haeger" width="150">
+    <h1>Noah Haeger</h1>
+    <p>Finance & Business Analytics · University of Iowa · May 2026</p>
+    <p>I turn data into decisions. Seeking full-time roles in finance, analytics, and strategy.</p>
+
+    <a href="https://linkedin.com/in/noah-haeger" target="_blank" rel="noopener noreferrer">
+      Connect on LinkedIn
+    </a>
+    <a href="#projects">
+      View My Work
+    </a>
   </header>
 
-  <main>
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      I'm a dual-degree student at the University of Iowa's Tippie College of Business completing a B.B.A. in Business Analytics Information Systems and a B.B.A. in Finance. I focus on roles where structured data meets real business decisions — from IT controls at PwC to go-to-market strategy at a global tech firm.
+    </p>
 
-    <!-- Hero -->
-    <section id="hero" aria-label="Introduction">
-      <div class="container hero-inner">
-        <img
-          src="images/headshot.jpg"
-          alt="Professional headshot of Noah Haeger"
-          class="headshot"
-        >
-        <h1>Noah Haeger</h1>
-        <p class="tagline">Finance &amp; Business Analytics · University of Iowa · May 2026</p>
-        <p class="hero-sub">I turn data into decisions. Seeking full-time roles in finance, analytics, and strategy.</p>
-        <div class="hero-cta">
-          <a
-            href="https://www.linkedin.com/in/noah-haeger-7b5609245/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="btn"
-            aria-label="Connect with Noah on LinkedIn"
-          >Connect on LinkedIn</a>
-          <a href="#projects" class="btn btn-outline">View My Work</a>
-        </div>
-      </div>
-    </section>
+    <ul>
+      <li>3.75 GPA · Dean's List</li>
+      <li>2 Finance & Analytics Internships</li>
+      <li>$600K+ Budget Managed as Treasurer</li>
+    </ul>
 
-    <!-- About -->
-    <section id="about" aria-labelledby="about-heading">
-      <div class="container">
-        <h2 id="about-heading">About</h2>
-        <p class="about-intro">
-          I'm a dual-degree student at the University of Iowa's Tippie College of Business completing a B.B.A. in Business Analytics Information Systems and a B.B.A. in Finance. I focus on roles where structured data meets real business decisions — from IT controls at PwC to go-to-market strategy at a global tech firm.
-        </p>
-        <div class="about-stats">
-          <div class="stat">
-            <span class="stat-value">3.75</span>
-            <span class="stat-label">GPA · Dean's List</span>
-          </div>
-          <div class="stat">
-            <span class="stat-value">2</span>
-            <span class="stat-label">Finance &amp; Analytics Internships</span>
-          </div>
-          <div class="stat">
-            <span class="stat-value">$600K+</span>
-            <span class="stat-label">Budget Managed as Treasurer</span>
-          </div>
-        </div>
-        <ul class="about-list">
-          <li>Interned at <strong>PricewaterhouseCoopers</strong> evaluating IT general controls across access management, SDLC, and change management</li>
-          <li>Built a go-to-market strategy for digital commerce at <strong>SICK Sensor Intelligence</strong>, contributing to mid-term strategic planning</li>
-          <li>Served as Treasurer of Phi Kappa Psi, managing $575,000+ in annual expenditures across 180+ members</li>
-          <li>Volunteer with the <strong>Boys &amp; Girls Club of America</strong>, contributing 6+ hours per week</li>
-        </ul>
-      </div>
-    </section>
+    <ul>
+      <li>Interned at PricewaterhouseCoopers evaluating IT general controls</li>
+      <li>Built go-to-market strategy for digital commerce at SICK Sensor Intelligence</li>
+      <li>Managed $575K+ as Treasurer of Phi Kappa Psi</li>
+      <li>Volunteered with Boys & Girls Club of America</li>
+    </ul>
+  </section>
 
-    <!-- Projects -->
-    <section id="projects" aria-labelledby="projects-heading">
-      <div class="container">
-        <h2 id="projects-heading">Projects</h2>
-        <div class="cards">
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Projects</h2>
 
-          <article class="card" aria-label="Analysis of Successful Films Since 2000">
-            <div class="card-body">
-              <h3>Film Success Analysis (2000–Present)</h3>
-              <p>Built a SQL-powered web application to surface key predictors of box office success across 20+ years of film data. Queried and visualized patterns across genre, budget, ratings, and release timing to identify what drives commercial performance.</p>
-            </div>
-            <div class="card-tags">
-              <span class="tag">SQL</span>
-              <span class="tag">Data Analysis</span>
-              <span class="tag">Data Visualization</span>
-            </div>
-          </article>
-
-          <article class="card" aria-label="Go-To-Market Strategy at SICK Sensor Intelligence">
-            <div class="card-body">
-              <h3>Go-To-Market Strategy · SICK Sensor Intelligence</h3>
-              <p>Researched and delivered a comprehensive go-to-market strategy for digital commerce and cloud services at a global industrial sensor company. Presented competitive data analysis and market entry recommendations that directly shaped the Digital Services team's mid-term plan.</p>
-            </div>
-            <div class="card-tags">
-              <span class="tag">Market Research</span>
-              <span class="tag">Strategy</span>
-              <span class="tag">Power BI</span>
-              <span class="tag">Competitive Analysis</span>
-            </div>
-          </article>
-
-          <article class="card" aria-label="Fraternity Financial Overhaul">
-            <div class="card-body">
-              <h3>Chapter Financial Overhaul · Phi Kappa Psi</h3>
-              <p>Resolved an organizational financial deficit and redesigned budget tracking for a 180-member chapter. Collected $600,000 in annual fees and built comprehensive tracking across $575,000+ in expenditures — improving accountability and long-term financial stability.</p>
-            </div>
-            <div class="card-tags">
-              <span class="tag">Excel</span>
-              <span class="tag">Financial Modeling</span>
-              <span class="tag">Budget Management</span>
-            </div>
-          </article>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- Skills -->
-    <section id="skills" aria-labelledby="skills-heading">
-      <div class="container">
-        <h2 id="skills-heading">Skills</h2>
-
-        <div class="skills-group">
-          <h3>Tools</h3>
-          <div class="tags">
-            <span class="tag">Excel</span>
-            <span class="tag">Power BI</span>
-            <span class="tag">Python</span>
-            <span class="tag">SQL</span>
-            <span class="tag">Microsoft Access</span>
-            <span class="tag">Jupyter Notebook</span>
-            <span class="tag">Oracle</span>
-            <span class="tag">Bloomberg Terminal</span>
-          </div>
-        </div>
-
-        <div class="skills-group">
-          <h3>Techniques</h3>
-          <div class="tags">
-            <span class="tag">Regression Analysis</span>
-            <span class="tag">Forecasting</span>
-            <span class="tag">Data Visualization</span>
-            <span class="tag">Pivot Tables</span>
-            <span class="tag">Correlation Analysis</span>
-          </div>
-        </div>
-
-        <div class="skills-group">
-          <h3>Finance &amp; Strategy</h3>
-          <div class="tags">
-            <span class="tag">IT Controls &amp; Compliance</span>
-            <span class="tag">Go-To-Market Strategy</span>
-            <span class="tag">Competitive Analysis</span>
-            <span class="tag">Financial Modeling</span>
-            <span class="tag">Risk Assessment</span>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact" aria-labelledby="contact-heading">
-      <div class="container">
-        <h2 id="contact-heading">Get in Touch</h2>
-        <p>Graduating May 2026 and actively seeking full-time roles in finance, analytics, and strategy. I'd welcome the chance to connect.</p>
-        <div class="contact-links">
-          <a
-            href="https://www.linkedin.com/in/noah-haeger-7b5609245/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="btn"
-            aria-label="Connect with Noah Haeger on LinkedIn"
-          >LinkedIn</a>
-          <a
-            href="https://github.com/NoahHaeger"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="btn"
-            aria-label="View Noah Haeger's GitHub profile"
-          >GitHub</a>
-          <a
-            href="mailto:noahhaeger@gmail.com"
-            class="btn btn-outline"
-            aria-label="Email Noah Haeger"
-          >noahhaeger@gmail.com</a>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <footer>
-    <div class="container">
-      <p>&copy; 2026 Noah Haeger · Eden Prairie, MN</p>
+    <div>
+      <h3>Film Success Analysis (2000–Present)</h3>
+      <p>
+        Built a SQL-powered analysis to identify key predictors of box office success across 20+ years of film data.
+      </p>
+      <p><strong>Tools:</strong> SQL, Data Visualization</p>
     </div>
-  </footer>
 
-<script src="https://replit-cdn.com/replit-pill/replit-pill.global.js" data-referral-code="8q00cuprpt4l" data-repl-id="c2c295e9-ef2c-4a47-8ac0-1495204e3eaf"></script></body>
+    <div>
+      <h3>Go-To-Market Strategy · SICK Sensor Intelligence</h3>
+      <p>
+        Delivered a go-to-market strategy for digital commerce and cloud services, shaping mid-term planning decisions.
+      </p>
+      <p><strong>Tools:</strong> Power BI, Market Research, Competitive Analysis</p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <p>SAS · Python · Power BI · Excel · SQL · Financial Analysis · Strategy</p>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>
+      <a href="https://linkedin.com/in/noah-haeger" target="_blank" rel="noopener noreferrer">
+        LinkedIn
+      </a>
+      |
+      <a href="https://github.com/NoahHaeger" target="_blank" rel="noopener noreferrer">
+        GitHub
+      </a>
+    </p>
+  </section>
+
+</body>
 </html>
